@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D91C8CEBF35FF41D21AA8E66 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D7C9490459282E5FB36BB9 /* Pods.framework */; };
+		E39F37B51CBF109C004F917B /* FLDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F37B41CBF109C004F917B /* FLDetailsViewController.swift */; };
+		E39F37B71CBF10B7004F917B /* FLTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E39F37B61CBF10B7004F917B /* FLTableCell.xib */; };
+		E39F37B91CBF1202004F917B /* FLTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F37B81CBF1202004F917B /* FLTableViewCell.swift */; };
+		E39F37BB1CBF128B004F917B /* FLDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E39F37BA1CBF128B004F917B /* FLDetailsView.xib */; };
+		E39F37BD1CBF1363004F917B /* FLDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39F37BC1CBF1363004F917B /* FLDetailsView.swift */; };
 		E3E570441CBF0BE7001458FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E570431CBF0BE7001458FE /* AppDelegate.swift */; };
-		E3E570461CBF0BE7001458FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E570451CBF0BE7001458FE /* ViewController.swift */; };
+		E3E570461CBF0BE7001458FE /* FLMainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E570451CBF0BE7001458FE /* FLMainTableViewController.swift */; };
 		E3E570491CBF0BE7001458FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E570471CBF0BE7001458FE /* Main.storyboard */; };
 		E3E5704C1CBF0BE7001458FE /* FLExam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3E5704A1CBF0BE7001458FE /* FLExam.xcdatamodeld */; };
 		E3E5704E1CBF0BE7001458FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3E5704D1CBF0BE7001458FE /* Assets.xcassets */; };
@@ -35,9 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B3FC0276B7A5E1892ECC1E16 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E39F37B41CBF109C004F917B /* FLDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLDetailsViewController.swift; sourceTree = "<group>"; };
+		E39F37B61CBF10B7004F917B /* FLTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLTableCell.xib; sourceTree = "<group>"; };
+		E39F37B81CBF1202004F917B /* FLTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLTableViewCell.swift; sourceTree = "<group>"; };
+		E39F37BA1CBF128B004F917B /* FLDetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLDetailsView.xib; sourceTree = "<group>"; };
+		E39F37BC1CBF1363004F917B /* FLDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLDetailsView.swift; sourceTree = "<group>"; };
+		E3D7C9490459282E5FB36BB9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E570401CBF0BE7001458FE /* FLExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E570431CBF0BE7001458FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3E570451CBF0BE7001458FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3E570451CBF0BE7001458FE /* FLMainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLMainTableViewController.swift; sourceTree = "<group>"; };
 		E3E570481CBF0BE7001458FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3E5704B1CBF0BE7001458FE /* FLExam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FLExam.xcdatamodel; sourceTree = "<group>"; };
 		E3E5704D1CBF0BE7001458FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +62,7 @@
 		E3E570621CBF0BE7001458FE /* FLExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E570661CBF0BE7001458FE /* FLExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLExamUITests.swift; sourceTree = "<group>"; };
 		E3E570681CBF0BE7001458FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA99C5E7AF73863C26809EAC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91C8CEBF35FF41D21AA8E66 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C75DA0FB5C622D68234658B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3FC0276B7A5E1892ECC1E16 /* Pods.debug.xcconfig */,
+				EA99C5E7AF73863C26809EAC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E3E570371CBF0BE6001458FE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +107,8 @@
 				E3E5705A1CBF0BE7001458FE /* FLExamTests */,
 				E3E570651CBF0BE7001458FE /* FLExamUITests */,
 				E3E570411CBF0BE7001458FE /* Products */,
+				C75DA0FB5C622D68234658B9 /* Pods */,
+				FDB61C3ECD24DB55B6870F5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +126,17 @@
 			isa = PBXGroup;
 			children = (
 				E3E570431CBF0BE7001458FE /* AppDelegate.swift */,
-				E3E570451CBF0BE7001458FE /* ViewController.swift */,
+				E3E570451CBF0BE7001458FE /* FLMainTableViewController.swift */,
+				E39F37B41CBF109C004F917B /* FLDetailsViewController.swift */,
+				E39F37B81CBF1202004F917B /* FLTableViewCell.swift */,
 				E3E570471CBF0BE7001458FE /* Main.storyboard */,
 				E3E5704D1CBF0BE7001458FE /* Assets.xcassets */,
 				E3E5704F1CBF0BE7001458FE /* LaunchScreen.storyboard */,
 				E3E570521CBF0BE7001458FE /* Info.plist */,
 				E3E5704A1CBF0BE7001458FE /* FLExam.xcdatamodeld */,
+				E39F37B61CBF10B7004F917B /* FLTableCell.xib */,
+				E39F37BA1CBF128B004F917B /* FLDetailsView.xib */,
+				E39F37BC1CBF1363004F917B /* FLDetailsView.swift */,
 			);
 			path = FLExam;
 			sourceTree = "<group>";
@@ -128,6 +159,14 @@
 			path = FLExamUITests;
 			sourceTree = "<group>";
 		};
+		FDB61C3ECD24DB55B6870F5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3D7C9490459282E5FB36BB9 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3E5706B1CBF0BE7001458FE /* Build configuration list for PBXNativeTarget "FLExam" */;
 			buildPhases = (
+				17EDA622B3B26C73A93AC131 /* Check Pods Manifest.lock */,
 				E3E5703C1CBF0BE7001458FE /* Sources */,
 				E3E5703D1CBF0BE7001458FE /* Frameworks */,
 				E3E5703E1CBF0BE7001458FE /* Resources */,
+				725D99E2B2882524001252DF /* Embed Pods Frameworks */,
+				36F1B568C8334D56F9DC44F6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,7 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3E570511CBF0BE7001458FE /* LaunchScreen.storyboard in Resources */,
+				E39F37BB1CBF128B004F917B /* FLDetailsView.xib in Resources */,
 				E3E5704E1CBF0BE7001458FE /* Assets.xcassets in Resources */,
+				E39F37B71CBF10B7004F917B /* FLTableCell.xib in Resources */,
 				E3E570491CBF0BE7001458FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +297,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17EDA622B3B26C73A93AC131 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		36F1B568C8334D56F9DC44F6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		725D99E2B2882524001252DF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3E5703C1CBF0BE7001458FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3E570461CBF0BE7001458FE /* ViewController.swift in Sources */,
+				E3E570461CBF0BE7001458FE /* FLMainTableViewController.swift in Sources */,
+				E39F37B91CBF1202004F917B /* FLTableViewCell.swift in Sources */,
 				E3E570441CBF0BE7001458FE /* AppDelegate.swift in Sources */,
+				E39F37BD1CBF1363004F917B /* FLDetailsView.swift in Sources */,
 				E3E5704C1CBF0BE7001458FE /* FLExam.xcdatamodeld in Sources */,
+				E39F37B51CBF109C004F917B /* FLDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +495,7 @@
 		};
 		E3E5706C1CBF0BE7001458FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3FC0276B7A5E1892ECC1E16 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FLExam/Info.plist;
@@ -411,6 +507,7 @@
 		};
 		E3E5706D1CBF0BE7001458FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA99C5E7AF73863C26809EAC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FLExam/Info.plist;
@@ -485,6 +582,7 @@
 				E3E5706D1CBF0BE7001458FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3E5706E1CBF0BE7001458FE /* Build configuration list for PBXNativeTarget "FLExamTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +591,7 @@
 				E3E570701CBF0BE7001458FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3E570711CBF0BE7001458FE /* Build configuration list for PBXNativeTarget "FLExamUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +600,7 @@
 				E3E570731CBF0BE7001458FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
